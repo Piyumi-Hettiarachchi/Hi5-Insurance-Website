@@ -1,0 +1,197 @@
+/*......................................header part........................................*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}	
+.navigationBar{
+	background: #aeb6bf;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}	
+	
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a{
+   text-decoration: none;
+   color: #000000;
+}
+p{
+   color: #000000;
+}
+
+.contents{
+   width:100%;
+   margin: auto;
+   padding-left: 0px;
+   padding-right: 0px;
+  
+}
+#top1{
+	transform:translate(0,800%);
+	background-color:white;
+	right:50px;
+	padding:4px;
+	border:2px solid blue;
+	float:left;
+}
+.sri1{
+	margin-top:-50px;
+	height:500px;
+	width:1600px;
+}
+
+#fname[type=text]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid red;
+	
+}
+.form-control{
+	width:35%;
+	
+}
+.radiobutton{
+	float:left;
+	padding:5px;
+}
+
+.btn-def{
+	color: #ffffff;
+    background-color: #e1c44c;
+   
+    border-radius: 4px;
+    text-align: center;
+    padding: 8px 20px;
+    border: 1px solid transparent;
+    outline: none;
+    min-width: 120px;
+    cursor: pointer;
+	
+}
+
+.navi2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navi2 li {
+  float: left;
+}
+
+.navi2 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navi2 a:hover {
+  background-color: #111;
+}
+/*....................................... page content part..................................... */
+.contname{
+	color:blue;
+	
+}
+
+
+
+/*.........................................footer part............................................*/
+.row{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.footer{
+   background: #00121b;
+   color: #8a8a8a;
+   font-size: 14px;
+   padding: 60px 0 20px;
+}
+
+.footer p{
+   color: #8a8a8a;
+}
+
+.footer h3{
+   color: #fff;
+   margin-bottom: 20px;
+   
+}
+
+.foot_column1, .foot_column2, .foot_column3, .foot_column4{
+   min-width: 250px;
+   margin-bottom: 20px;
+}
+
+.foot_column1{
+   flex-basis: 30%;
+}
+
+.foot_column2 img{
+   width: 180px;
+   margin-bottom: 20px;
+}
+ .foot_column3, .foot_column4{
+   flex-basis: 12%;
+   text-align: center;
+ }
+
+ul{
+   list-style-type: none;
+}
+
+.app-logo{
+   margin-top: 20px;
+}
+
+.app-logo img{
+   width: 140px;
+}
+
+.footer hr{
+   border: none;
+   background: #b5b5b5;
+   height: 1px;
+   margin: 20px 0;
+}
+
+.copyright{
+   text-align: center;
+}
+
+.frm1{
+	
+	width:800px;
+	padding:9px;
+	float:left;
+}
+.mail{
+	
+	margin-left:80px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="hi5.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+
+<title>login</title>
+</head>
+
+
+<body class="body">
+<!...............Header part.........................>
+<div class="contents">
+<div class="navigationBar">
+    <div class="logo">
+    <img src="images\logo3.png" alt="Hi5 logo" width="230" height="100">
+  </div>
+  <nav>
+     <ul>
+        <li><a href="Hi5.html"><b>Home</b></a></li>
+         <li><a href="contactus.html"><b>Contact Us</b></a></li>
+        <li><a href="login.html"><b>Login</b></a></li>
+    <li><a href="registration.html"><b>Sign Up</b></a></li>
+    <li><a href="user profile"><img src="images\user profile.jpg" width="70" height="70"></a></li>
+       </ul>
+  </nav>
+ </div>
+<div class="navi2">
+<ul>
+  <li><a href="UserDetails.html">New Insurance</a></li>
+  <li><a href="claim.html">Request a Claim</a></li>
+  <li><a href="changeplan.html">Change Current Plan</a></li>
+  <li><a href="hi5-renew page.html">Renew Insurance</a></li>
+  <li><a href="close insurance.html">Close Insurance</a></li>
+</ul>
+</div> 
+</div>
+
+ <br>
+ <br>
+<center>
+<script> 
+  
+    var welcome;  
+    var date = new Date();  
+    var hour = date.getHours();  
+    
+    if (hour < 12) 
+      { 
+       welcome = "Hello Good Morning"; 
+      }
+    else if (hour < 17)
+     {  
+      welcome = "Hello Good Afternoon";  
+     } 
+    else 
+    {  
+      welcome = "Hello Good Evening";  
+    }  
+    document.write("<h1>" + "<font color='blue'>" + welcome  +"<br>" + " Sign into your Account"+"</font>");
+     
+</script></center>
+    <br>
+    <br> 
+  <center>
+<div class="main">
+<form action="php/validate.php" method="POST" class="form"style="color: gainsboro;">
+  <center>
+    <img src="images/boy.png" alt="emmie" style="width:50%">
+  </center>
+  <br>
+ <label for="fname">User Name</label><br>
+ <input type="text" id="username" name="username" placeholder="Enter your username">
+ <br><br>
+ <label for="lname">Password</label><br>
+ <input type="text" id="password" name="password" placeholder="Enter your password">
+ <br><br>
+ <label for="lname">Remember me</label>
+ <input type="checkbox"  name="remember">
+ <br><br>
+ <input type="submit" value="sign in" onclick="getinfo()">
+ <br>
+ <a href="register.html" style="font-size:12px; color:#7F8C8D;">Register new Account</a><br>
+ <a href="loginhelp.html" style="font-size:12px; color:#7F8C8D;">Change my password</a>
+ </form>  
+</div></center>
+
+<table border="1" class="logtable">
+<tr><th id="tr">ONLINE SERVICES</th></tr>
+<tr><th><a href="loginhelp.html"  id="th">What can I do here?</a></th>
+<tr><th id="th"><a href="loginhelp.html"  id="th">Login help</a></th>
+<tr><th id="th"><a href="loginhelp.html"  id="th">Online services help</a></th>
+<tr><th id="th"><a href="loginhelp.html"  id="th">policy privacy</a></th>
+   
+</table>
+
+
+ <br>
+ <br>
+<!..................footer part...............................>
+<div class="footer1">
+   <div class="contents">
+     <div class="row">
+       <div class="foot_column1">
+         <h3>Download Our App</h3>
+     <p>Download App for Android and ios Mobile Phone.</p>
+     <div class="app-logo">
+         <img src="images\play-store.png" alt="app logo">
+             <img src="images\app-store.png" alt="app logo">       
+     </div>
+       </div>
+     <div class="foot_column2">
+         <img src="images\car.png" alt="logo2">
+     <p>Better Insurance for better journey.</p>
+       </div>
+     <div class="foot_column3">
+         <h3>Contact Us</h3>
+     <ul>
+      <li>+94112703951</li>
+      <li>+94779040174</li>
+      <li>+94775664652</li>
+      <li>hi5_motorInsurance@gmail.com</li>
+     </ul>
+       </div>
+     <div class="foot_column4">
+         <h3>Get social with us</h3>
+     <img src="images\social media.png" alt="app logo" width="200" height="60">
+       </div>
+     </div>
+          <hr>
+          <p class="copyright">Copyright 2020 - Hi5 Development Team</p>      
+   </div>
+</div>
+</body>
+</html>
